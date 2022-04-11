@@ -34,8 +34,11 @@ img {
   display: block;
 }
 
+/*===== ikony =====*/
 
-
+.navigation-logo{
+  padding-right: 10px;
+}
 
 /*===== HEADER / NAGŁÓWEK =====*/
 
@@ -44,6 +47,7 @@ img {
   align-items: center;
   width: 1600px;
   border-bottom: 1px solid #ECECEC;
+
 }
 
 .navigation {
@@ -184,6 +188,18 @@ img {
 /*===== END MAIN =====*/
 
 /*===== ATRIBUTES / 4 loremki =====*/
+                                                /*===== Tło SVG =====*/
+.iconbackground{
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .container {
   width: 1200px;
