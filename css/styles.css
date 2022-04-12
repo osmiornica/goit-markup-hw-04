@@ -4,6 +4,11 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #212121;
   --sec-color-lblue: #2196f3;
+  --background-menu: #fff;
+  
+  --third-color: #fff;
+  --social-icon: #AFB1B8;
+  --secondary-color: #2196f3;
 }
 
 body {
@@ -251,7 +256,7 @@ img {
 
 /*===== END ATRIBUTES =====*/
 
-/*=====OFFER AND TEAM =====*/
+/*=====OFFER AND TEAM Nasz zespół =====*/
 .headerh2 {
   font-weight: 700;
   font-size: 36px;
@@ -264,24 +269,13 @@ img {
 }
 
 .headerh2-pictures {
-   display: flex;
-  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   list-style: none;
-}
-/* do zadania 4
-.obrazek{
-  background-image: url('/images/z3.png');
-  background-size: cover;
-  width:370px;
-  height:294px;
-} */
-
-.pictures-item:not(:last-child) {
-
-  margin-right: 30px;
   margin-bottom: 94px;
-
 }
+
 
 .team .container {
   background-color: #F5F4FA;
@@ -289,19 +283,15 @@ img {
 }
 
 
-
-
 .team-list {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  margin-left: -30px;
   list-style: none;
 }
 
 .team-list-item:not(:last-child) {
   margin-bottom: 94px;
-  margin-right: 30px;
+  margin-right: 35px;
   flex-basis: calc(100%/4-30px);
 }
 
@@ -311,7 +301,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin: 0;
-  height: 368px;
+  height: 428px;
   background-color: #FFFFFF;
 
 }
@@ -339,7 +329,7 @@ img {
   padding-bottom: 30px;
 }
 
-/*=====END OFFER AND TEAM =====*/
+/*=====END OFFER AND TEAM Nasz zespół=====*/
 
 /*=====FOOTER =====*/
 .footer .container {
